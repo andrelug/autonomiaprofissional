@@ -1,0 +1,152 @@
+@import '../node_modules/bulma/bulma';
+
+.is-horizontal-center {
+  justify-content: center;
+}
+
+button {
+  background-color: #f5b039 !important;
+  color: #fff !important;
+  font-weight: bold;
+
+  &.is-large {
+    font-size: 1.5rem;
+  }
+
+  .icon {
+    &:first-child:last-child {
+      margin-left: calc(-.375em - -10px);
+    }
+  }
+}
+
+#mc-embedded-subscribe:hover {
+  background-color: #273c75 !important;
+}
+
+figure.image {
+  img {
+    max-width: 280px;
+
+    &.section {
+      max-width: 700px;
+    }
+
+    &.profile {
+      max-width: 200px;
+      border-radius: 6em;
+      margin: 0 0.5em;
+    }
+
+    &.brand {
+      max-width: 120px;
+    }
+  }
+
+  &.is-centered {
+    img {
+      margin: 0 auto;
+    }
+  }
+}
+
+header.head {
+  padding: 45px 0 0;
+
+  h1 {
+    font: 500 27px/1.5 'Montserrat Alternates', sans-serif;
+    color: #000;
+  }
+  p {
+    font: 300 18px 'Roboto', sans-serif;
+    color: #000;
+  }
+
+  .bloqueText {
+    margin: 0.5em;
+  }
+}
+
+section {
+  div.divider {
+    $bg-height: 50px;
+    width: 100vw;
+    height: $bg-height;
+    background-color: white;
+
+    &:after {
+      content: '';
+      border-top: $bg-height solid transparent;
+      border-right: 100vw solid #131313;
+      width: 0;
+      position: absolute;
+    }
+  }
+
+  .info {
+    background: #131313;
+
+    .about {
+      margin: 0 0.5em;
+
+      p {
+        margin-top: 0.5em;
+      }
+    }
+    .social-medias {
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 0.7rem;
+        margin-right: 1em;
+        margin-left: 1em;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .container {
+    padding: 25px 0 25px;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  .social-medias {
+    color: #fff;
+    padding-top: 20px;
+  }
+
+  &.divisor{
+    padding: 5vw 0;
+    h1{
+      font: 500 27px 'Montserrat Alternates', sans-serif;
+      color: #000;
+      margin-bottom: 30px;
+      padding: 0 6%;
+    }
+  }
+}
+footer {
+  background-color: #222;
+  padding: 50px 0;
+
+  a {
+    margin: 0 auto;
+
+    .img {
+      margin: 0 auto;
+      max-width: 150px !important;
+    }
+  }
+}
+

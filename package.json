@@ -1,0 +1,27 @@
+{
+  "name": "autonomiaprofissional",
+  "version": "1.0.0",
+  "description": "autonomiaprofissional",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelug/autonomiaprofissional.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrelug/autonomiaprofissional/issues"
+  },
+  "homepage": "https://github.com/andrelug/autonomiaprofissional#readme",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-rename": "^1.3.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}

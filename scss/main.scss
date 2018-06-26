@@ -1,152 +1,219 @@
 @import '../node_modules/bulma/bulma';
+p {
+    font-family: "ff-tisa-web-pro";
+    font-size: 1.3em;
+}
 
-.is-horizontal-center {
-  justify-content: center;
+h1,
+h2,
+h3 {
+    font-family: "brandon-grotesque";
+}
+#info {
+    background-color: #222;
+}
+#info p {
+    color: white;
+    font-size: 1.1em !important;
+    margin-bottom: 10px;
+}
+#info a {
+    color: white;
+}
+.andrelugImg {
+    max-width: 200px;
+}
+.profile {
+    max-width: 250px;
+}
+.social .txt {
+    top: -10px;
+    position: relative;
+    left: 10px;
+}
+#home h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    margin-top: 0px !important;
+}
+
+#confirmar h1 {
+    color: #222 !important;
+    font-size: 1.5rem !important;
+    line-height: 1.3em;
+}
+
+header .data {
+    color: #f5b039 !important;
+    margin-top: 2rem !important;
+    margin-bottom: 4rem !important;
+    font-weight: 200 !important;
+}
+
+header .participar {
+    color: #222 !important;
 }
 
 button {
-  background-color: #f5b039 !important;
-  color: #fff !important;
-  font-weight: bold;
-
-  &.is-large {
-    font-size: 1.5rem;
-  }
-
-  .icon {
-    &:first-child:last-child {
-      margin-left: calc(-.375em - -10px);
-    }
-  }
+    background-color: #f5b039 !important;
+    color: #fff !important;
+    font-weight: bold;
 }
 
 #mc-embedded-subscribe:hover {
-  background-color: #273c75 !important;
+    background-color: #273c75 !important;
 }
 
-figure.image {
-  img {
-    max-width: 280px;
-
-    &.section {
-      max-width: 700px;
-    }
-
-    &.profile {
-      max-width: 200px;
-      border-radius: 6em;
-      margin: 0 0.5em;
-    }
-
-    &.brand {
-      max-width: 120px;
-    }
-  }
-
-  &.is-centered {
-    img {
-      margin: 0 auto;
-    }
-  }
+#home .header {
+    background-color: #4b6584;
+    background: url(../images/bg.jpg) center center;
+    background-size: cover;
 }
 
-header.head {
-  padding: 45px 0 0;
-
-  h1 {
-    font: 500 27px/1.5 'Montserrat Alternates', sans-serif;
-    color: #000;
-  }
-  p {
-    font: 300 18px 'Roboto', sans-serif;
-    color: #000;
-  }
-
-  .bloqueText {
-    margin: 0.5em;
-  }
+.noticeTop {
+    margin-bottom: 0px !important;
+    padding-top: 14px !important;
+    background-color: #222;
 }
 
-section {
-  div.divider {
-    $bg-height: 50px;
-    width: 100vw;
-    height: $bg-height;
-    background-color: white;
-
-    &:after {
-      content: '';
-      border-top: $bg-height solid transparent;
-      border-right: 100vw solid #131313;
-      width: 0;
-      position: absolute;
-    }
-  }
-
-  .info {
-    background: #131313;
-
-    .about {
-      margin: 0 0.5em;
-
-      p {
-        margin-top: 0.5em;
-      }
-    }
-    .social-medias {
-
-      a {
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 0.7rem;
-        margin-right: 1em;
-        margin-left: 1em;
-
-        &:first-child {
-          margin-left: 0;
-        }
-
-        &:last-child {
-          margin-right: 0;
-        }
-      }
-    }
-  }
-
-  .container {
-    padding: 25px 0 25px;
-  }
-
-  p {
-    color: #fff;
-  }
-
-  .social-medias {
-    color: #fff;
-    padding-top: 20px;
-  }
-
-  &.divisor{
-    padding: 5vw 0;
-    h1{
-      font: 500 27px 'Montserrat Alternates', sans-serif;
-      color: #000;
-      margin-bottom: 30px;
-      padding: 0 6%;
-    }
-  }
+.noticeTop h2 {
+    color: white;
 }
+
+.button .icon:first-child:last-child {
+    margin-left: calc(-.375em - -10px);
+}
+
+.logo {
+    max-width: 25em;
+}
+
+.headerLine {
+    width: 100px;
+    height: 3px;
+    background-color: #F5B039;
+    display: inline-block;
+    margin: 10px auto 40px;
+}
+
+#home .webinario,
+#confirmado .webinario {
+    color: #F5B039 !important;
+    font-weight: bold;
+    font-size: 2rem !important;
+}
+
+#confirmar .webinario {
+    color: #222 !important;
+    font-weight: bold;
+    font-size: 2rem !important;
+}
+
+.textBlue {
+    color: #273c75 !important;
+}
+
+section,
+header {
+    padding: 50px 5%;
+}
+
+section#features {
+    border-bottom: 10px solid #F5B039;
+    border-top: 10px solid #273C75;
+}
+
+section h2:not(.participar) {
+    font-size: 3rem !important;
+    margin-bottom: 100px !important;
+}
+
+section p {
+    font-size: 1.4rem !important;
+}
+
+#features .feature svg:not(:root).svg-inline--fa {
+    color: #F5B039;
+}
+
 footer {
-  background-color: #222;
-  padding: 50px 0;
-
-  a {
-    margin: 0 auto;
-
-    .img {
-      margin: 0 auto;
-      max-width: 150px !important;
-    }
-  }
+    background-color: #222;
 }
 
+footer a,
+footer img {
+    margin: 15px auto;
+    max-width: 150px !important;
+}
+
+#andrelug img {
+    max-width: 336px;
+}
+
+.notice {
+    color: #222;
+    font-weight: bold;
+}
+
+.field.has-addons {
+    justify-content: center;
+}
+.head img {
+    margin-bottom:50px;
+}
+
+@media screen and (max-width: 769px) {
+    .field.has-addons {
+        display: block;
+    }
+    .field.has-addons .control:last-child .button {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .webinario {
+        font-size: 1.3rem !important;
+    }
+    section,
+    header {
+        padding: 50px 5%;
+    }
+    section h2:not(.participar) {
+        font-size: 2.5rem !important;
+        margin-bottom: 40px !important;
+    }
+    section p {
+        font-size: 1.3rem !important;
+    }
+    .noticeTop {
+        padding-bottom: 3px !important;
+    }
+}
+
+#mailIcons img {
+    max-width: 150px;
+}
+
+#mailIcons {
+    margin-top: 50px;
+}
+
+#ebook #mc_embed_signup {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #273C75;
+    padding: 30px 25px;
+}
+
+#ebook #mc_embed_signup button {
+    width: 100%;
+}
+
+#ebook #mc_embed_signup input {
+    margin-bottom: 15px;
+}
+
+#ebook #mc_embed_signup h3,
+#ebook #mc_embed_signup p {
+    color: white;
+}

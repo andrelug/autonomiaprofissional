@@ -6,7 +6,7 @@ p {
 
 h1,
 h2,
-h3 {
+h3, .button{
     font-family: "brandon-grotesque";
 }
 #info {
@@ -36,6 +36,7 @@ h3 {
     letter-spacing: 2px;
     line-height: 1.3em;
     margin-top: 0px !important;
+    color: white;
 }
 
 #confirmar h1 {
@@ -67,14 +68,15 @@ button {
 
 #home .header {
     background-color: #4b6584;
-    background: url(../images/bg.jpg) center center;
+    background: url(../../img/bg.jpg) center center;
     background-size: cover;
 }
 
 .noticeTop {
     margin-bottom: 0px !important;
-    padding-top: 14px !important;
+    padding: 15px 0px;
     background-color: #222;
+    align-items: center;
 }
 
 .noticeTop h2 {
@@ -93,7 +95,7 @@ button {
     width: 100px;
     height: 3px;
     background-color: #F5B039;
-    display: inline-block;
+    display: block;
     margin: 10px auto 40px;
 }
 
@@ -125,8 +127,7 @@ section#features {
 }
 
 section h2:not(.participar) {
-    font-size: 3rem !important;
-    margin-bottom: 100px !important;
+    margin: 40px 0 !important;
 }
 
 section p {
@@ -216,4 +217,64 @@ footer img {
 #ebook #mc_embed_signup h3,
 #ebook #mc_embed_signup p {
     color: white;
+}
+
+/* Página de Vendas */
+
+span.headline2 {
+    font-size: 20px;
+}
+span.headline3 {
+    font-size: 60px;
+}
+#home header {
+    padding: 100px 0 120px 0;
+}
+#home .noticeTop {
+    background-color: #fff;
+}
+#home .noticeTop h2 {
+    color: #222;
+}
+.button {
+    font-weight: bold;
+}
+.is-success {
+    background-color: #273c75 !important;
+}
+#home h2 {
+    font-size: 30px !important;
+    font-weight: 800;
+    color: black !important;
+}
+#home p {
+    margin-bottom:15px;
+    font-size: 1.2rem !important;
+}
+.iconMain {
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.features01 {
+    border: 1px solid #707070;
+    padding:25px 10px;
+}
+.features01 h3 {
+    font-weight: bold;
+    margin-bottom:20px;
+    font-size: 1.3rem;
+}
+#section3 {
+    padding: 150px 0 !important;
+}
+#section3 .column {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+#section3 h3 {
+    font-weight: bold;
+    margin-bottom:20px;
+    font-size: 1.3rem;
 }

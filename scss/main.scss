@@ -265,6 +265,10 @@ span.headline3 {
     margin-bottom:20px;
     font-size: 1.3rem;
 }
+img.features03{
+    height: 139px;
+    width: 194px;
+}
 #section3 {
     padding: 150px 0 !important;
 }
@@ -279,15 +283,33 @@ span.headline3 {
     font-size: 1.3rem;
 }
 
-#section9 h2{
+#section8 h2{
     font-size: 9em;
 }
 
 .features02 {
     padding:25px 10px;
-    background-color: #ffffff;
+    background-color: #f4f5f6;
+    border-top: 8px solid #e4e5e4;
 
     &:hover{
-        background-color: #f2f2f2;
+        background-color: #e5e4e4;
     }
 }
+
+#section10{
+    h2{
+       margin: 0 !important;
+    }
+}
+
+.bonus-title{
+    background-color: #f5d44d;
+    height: 57px;
+    padding-top: 8px;
+    color: #ffffff !important;
+}
+.padding-0{
+    padding: 0 !important;
+}
+

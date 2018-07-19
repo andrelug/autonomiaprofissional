@@ -313,3 +313,26 @@ img.features03{
     padding: 0 !important;
 }
 
+.top-pagamento{
+    height: 90px;
+    background-color: #89d3e2;
+    padding-top: 20px;
+    border-bottom: 1px solid dimgrey;
+}
+p.price{
+    color: #000;
+    font-size: 16px !important;
+    font-weight: bold;
+    font-family: brandon-grotesque;
+}
+h3.value{
+    font-size: 80px !important;
+    font-weight: bold;
+    font-family: brandon-grotesque;
+    color: #000;
+}
+@media screen and (max-width: 375px) {
+    .top-pagamento {
+        padding-top: 2px;
+    }
+}

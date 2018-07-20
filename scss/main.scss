@@ -313,24 +313,52 @@ img.features03{
     padding: 0 !important;
 }
 
-.top-pagamento{
+h3.top-pagamento{
     height: 90px;
     background-color: #89d3e2;
-    padding-top: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 25px;
     border-bottom: 1px solid dimgrey;
 }
-p.price{
+h4.price{
     color: #000;
-    font-size: 16px !important;
+    font-size: 24px !important;
     font-weight: bold;
     font-family: brandon-grotesque;
+    padding-top: 40px;
 }
-h3.value{
+h4.value{
     font-size: 80px !important;
     font-weight: bold;
     font-family: brandon-grotesque;
-    color: #000;
+    color: #82dce9;
 }
+
+.benefits{
+    border-bottom: 1px solid #707070;
+    border-top: 1px solid #707070;
+    padding: 10px;
+}
+
+
+.btn-subscription{
+    background-color: #f4c222 !important;
+    border-bottom: 5px solid #ccae5c !important;
+
+    &:hover{
+        background-color: #dda917 !important;
+        border-bottom: 5px solid #f4c222 !important;
+    }
+}
+
+.col-price{
+    background-color: #ffffff;
+    padding: .75rem;
+}
+
+
 @media screen and (max-width: 375px) {
     .top-pagamento {
         padding-top: 2px;

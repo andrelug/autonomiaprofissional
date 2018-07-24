@@ -1,449 +1,522 @@
 @import '../node_modules/bulma/bulma';
 
 p {
-    font-family: "ff-tisa-web-pro";
-    font-size: 1.3em;
+  font-family: "ff-tisa-web-pro";
+  font-size: 1.3em;
 }
 
 h1,
 h2,
-h3, .button{
-    font-family: "brandon-grotesque";
+h3, .button {
+  font-family: "brandon-grotesque";
 }
+
 #info {
-    background-color: #222;
+  background-color: #222;
 }
+
 #info p {
-    color: white;
-    font-size: 1.1em !important;
-    margin-bottom: 10px;
+  color: white;
+  font-size: 1.1em !important;
+  margin-bottom: 10px;
 }
+
 #info a {
-    color: white;
+  color: white;
 }
+
 .andrelugImg {
-    max-width: 200px;
+  max-width: 200px;
 }
+
 .profile {
-    max-width: 250px;
+  max-width: 250px;
 }
+
 .social .txt {
-    top: -10px;
-    position: relative;
-    left: 10px;
+  top: -10px;
+  position: relative;
+  left: 10px;
 }
+
 #home h1 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    line-height: 1.3em;
-    margin-top: 0px !important;
-    color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.3em;
+  margin-top: 0px !important;
+  color: white;
 }
 
 #confirmar h1 {
-    color: #222 !important;
-    font-size: 1.5rem !important;
-    line-height: 1.3em;
+  color: #222 !important;
+  font-size: 1.5rem !important;
+  line-height: 1.3em;
 }
 
 header .data {
-    color: #f5b039 !important;
-    margin-top: 2rem !important;
-    margin-bottom: 4rem !important;
-    font-weight: 200 !important;
+  color: #f5b039 !important;
+  margin-top: 2rem !important;
+  margin-bottom: 4rem !important;
+  font-weight: 200 !important;
 }
 
 header .participar {
-    color: #222 !important;
+  color: #222 !important;
 }
 
 button {
-    background-color: #f5b039 !important;
-    color: #fff !important;
-    font-weight: bold;
+  background-color: #f5b039 !important;
+  color: #fff !important;
+  font-weight: bold;
 }
 
 #mc-embedded-subscribe:hover {
-    background-color: #273c75 !important;
+  background-color: #273c75 !important;
 }
 
 #home .header {
-    background-color: #4b6584;
-    background: url(../../img/bg.jpg) center center;
-    background-size: cover;
+  background-color: #4b6584;
+  background: url(../../img/bg.jpg) center center;
+  background-size: cover;
 }
 
 .noticeTop {
-    margin-bottom: 0px !important;
-    padding: 15px 0px;
-    background-color: #222;
-    align-items: center;
+  margin-bottom: 0px !important;
+  padding: 15px 0px;
+  background-color: #222;
+  align-items: center;
 }
 
 .noticeTop h2 {
-    color: white;
+  color: white;
 }
 
 .button .icon:first-child:last-child {
-    margin-left: calc(-.375em - -10px);
+  margin-left: calc(-.375em - -10px);
 }
 
 .logo {
-    max-width: 25em;
+  max-width: 25em;
 }
 
 .headerLine {
-    width: 100px;
-    height: 3px;
-    background-color: #F5B039;
-    display: block;
-    margin: 10px auto 40px;
+  width: 100px;
+  height: 3px;
+  background-color: #F5B039;
+  display: block;
+  margin: 10px auto 40px;
 }
 
 #home .webinario,
 #confirmado .webinario {
-    color: #F5B039 !important;
-    font-weight: bold;
-    font-size: 2rem !important;
+  color: #F5B039 !important;
+  font-weight: bold;
+  font-size: 2rem !important;
 }
 
 #confirmar .webinario {
-    color: #222 !important;
-    font-weight: bold;
-    font-size: 2rem !important;
+  color: #222 !important;
+  font-weight: bold;
+  font-size: 2rem !important;
 }
 
 .textBlue {
-    color: #273c75 !important;
+  color: #273c75 !important;
 }
 
 section,
 header {
-    padding: 50px 5%;
+  padding: 50px 5%;
 }
 
 section#features {
-    border-bottom: 10px solid #F5B039;
-    border-top: 10px solid #273C75;
+  border-bottom: 10px solid #F5B039;
+  border-top: 10px solid #273C75;
 }
 
 section h2:not(.participar) {
-    margin: 40px 0 !important;
+  margin: 40px 0 !important;
 }
 
 section p {
-    font-size: 1.4rem !important;
+  font-size: 1.4rem !important;
 }
 
 #features .feature svg:not(:root).svg-inline--fa {
-    color: #F5B039;
+  color: #F5B039;
 }
 
 footer {
-    background-color: #222;
+  background-color: #222;
 }
 
 footer a,
 footer img {
-    margin: 15px auto;
-    max-width: 150px !important;
+  margin: 15px auto;
+  max-width: 150px !important;
 }
 
 #andrelug img {
-    max-width: 336px;
+  max-width: 336px;
 }
 
 .notice {
-    color: #222;
-    font-weight: bold;
+  color: #222;
+  font-weight: bold;
 }
 
 .field.has-addons {
-    justify-content: center;
+  justify-content: center;
 }
+
 .head img {
-    margin-bottom:50px;
+  margin-bottom: 50px;
 }
 
 @media screen and (max-width: 769px) {
-    .field.has-addons {
-        display: block;
-    }
-    .field.has-addons .control:last-child .button {
-        width: 100%;
-        margin-top: 15px;
-    }
-    .webinario {
-        font-size: 1.3rem !important;
-    }
-    section,
-    header {
-        padding: 50px 5%;
-    }
-    section h2:not(.participar) {
-        font-size: 2.5rem !important;
-        margin-bottom: 40px !important;
-    }
-    section p {
-        font-size: 1.3rem !important;
-    }
-    .noticeTop {
-        padding-bottom: 3px !important;
-    }
+  .field.has-addons {
+    display: block;
+  }
+  .field.has-addons .control:last-child .button {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .webinario {
+    font-size: 1.3rem !important;
+  }
+  section,
+  header {
+    padding: 50px 5%;
+  }
+  section h2:not(.participar) {
+    font-size: 2.5rem !important;
+    margin-bottom: 40px !important;
+  }
+  section p {
+    font-size: 1.3rem !important;
+  }
+  .noticeTop {
+    padding-bottom: 3px !important;
+  }
 }
 
 #mailIcons img {
-    max-width: 150px;
+  max-width: 150px;
 }
 
 #mailIcons {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 #ebook #mc_embed_signup {
-    max-width: 400px;
-    margin: 0 auto;
-    background-color: #273C75;
-    padding: 30px 25px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #273C75;
+  padding: 30px 25px;
 }
 
 #ebook #mc_embed_signup button {
-    width: 100%;
+  width: 100%;
 }
 
 #ebook #mc_embed_signup input {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #ebook #mc_embed_signup h3,
 #ebook #mc_embed_signup p {
-    color: white;
+  color: white;
 }
 
 /* Página de Vendas */
 
 span.headline2 {
-    font-size: 20px;
-}
-span.headline3 {
-    font-size: 60px;
-}
-#home header {
-    padding: 100px 0 120px 0;
-}
-#home .noticeTop {
-    background-color: #fff;
-}
-#home .noticeTop h2 {
-    color: #222;
-}
-.button {
-    font-weight: bold;
-}
-.is-success {
-    background-color: #273c75 !important;
-}
-#home h2 {
-    font-size: 30px !important;
-    font-weight: 800;
-    color: black !important;
-}
-#home p {
-    margin-bottom:15px;
-    font-size: 1.2rem !important;
-}
-.iconMain {
-    max-width: 200px;
-    width: 100%;
-    margin: 0 auto;
-}
-.features01 {
-    border: 1px solid #707070;
-    padding:25px 10px;
-}
-.features01 h3 {
-    font-weight: bold;
-    margin-bottom:20px;
-    font-size: 1.3rem;
-}
-img.features03{
-    height: 139px;
-    width: 194px;
-}
-#section3 {
-    padding: 150px 0 !important;
-}
-#section3 .column {
-    background-color: white;
-    padding: 30px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
-}
-#section3 h3 {
-    font-weight: bold;
-    margin-bottom:20px;
-    font-size: 1.3rem;
+  font-size: 20px;
 }
 
-#section8 h2{
-    font-size: 9em;
+span.headline3 {
+  font-size: 60px;
+}
+
+#home header {
+  padding: 100px 0 120px 0;
+}
+
+#home .noticeTop {
+  background-color: #fff;
+}
+
+#home .noticeTop h2 {
+  color: #222;
+}
+
+.button {
+  font-weight: bold;
+}
+
+.is-success {
+  background-color: #273c75 !important;
+}
+
+#home h2 {
+  font-size: 30px !important;
+  font-weight: 800;
+  color: black !important;
+}
+
+#home p {
+  margin-bottom: 15px;
+  font-size: 1.2rem !important;
+}
+
+.iconMain {
+  max-width: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.features01 {
+  border: 1px solid #707070;
+  padding: 25px 10px;
+}
+
+.features01 h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+img.features03 {
+  height: 139px;
+  width: 194px;
+}
+
+#section3 {
+  padding: 150px 0 !important;
+}
+
+#section3 .column {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#section3 h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+#section8 h2 {
+  font-size: 9em;
 }
 
 .features02 {
-    padding:25px 10px;
-    background-color: #f4f5f6;
-    border-top: 8px solid #e4e5e4;
+  padding: 25px 10px;
+  background-color: #f4f5f6;
+  border-top: 8px solid #e4e5e4;
 
-    &:hover{
-        background-color: #e5e4e4;
-    }
+  &:hover {
+    background-color: #e5e4e4;
+  }
 }
 
-#section10{
-    h2{
-       margin: 0 !important;
-    }
+#section10 {
+  h2 {
+    margin: 0 !important;
+  }
 }
 
-.bonus-title{
-    background-color: #f5d44d;
-    height: 57px;
-    padding-top: 8px;
-    color: #ffffff !important;
-}
-.padding-0{
-    padding: 0 !important;
+.bonus-title {
+  background-color: #f5d44d;
+  height: 57px;
+  padding-top: 8px;
+  color: #ffffff !important;
 }
 
-h3.top-pagamento{
-    height: 90px;
-    background-color: #89d3e2;
-    font-size: 26px;
+.padding-0 {
+  padding: 0 !important;
+}
+
+h3.top-pagamento {
+  height: 90px;
+  background-color: #89d3e2;
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 25px;
+  border-bottom: 1px solid dimgrey;
+}
+
+h4.price {
+  color: #000;
+  font-size: 24px !important;
+  font-weight: bold;
+  font-family: brandon-grotesque;
+  padding-top: 40px;
+}
+
+h4.value {
+  font-size: 80px !important;
+  font-weight: bold;
+  font-family: brandon-grotesque;
+  color: #82dce9;
+}
+
+.benefits {
+  border-bottom: 1px solid #707070;
+  border-top: 1px solid #707070;
+  padding: 10px;
+}
+
+.btn-subscription {
+  background-color: #f4c222 !important;
+  border-bottom: 5px solid #ccae5c !important;
+
+  &:hover {
+    background-color: #dda917 !important;
+    border-bottom: 5px solid #f4c222 !important;
+  }
+}
+
+.col-price {
+  background-color: #ffffff;
+  padding: .75rem;
+}
+
+h3 {
+  &.garantia-title {
+    font-size: 50px;
+    color: #F5B039;
     font-weight: bold;
+    line-height: 1;
+  }
+  &.title-bonus {
     color: #ffffff;
-    padding-top: 25px;
-    border-bottom: 1px solid dimgrey;
-}
-h4.price{
-    color: #000;
-    font-size: 24px !important;
+    margin-bottom: 47px !important;
+    font-size: 80px;
     font-weight: bold;
-    font-family: brandon-grotesque;
-    padding-top: 40px;
-}
-h4.value{
-    font-size: 80px !important;
-    font-weight: bold;
-    font-family: brandon-grotesque;
-    color: #82dce9;
+  }
+  &.top-pagamento {
+    padding-top: 9px;
+  }
 }
 
-.benefits{
-    border-bottom: 1px solid #707070;
-    border-top: 1px solid #707070;
-    padding: 10px;
-}
-
-
-.btn-subscription{
-    background-color: #f4c222 !important;
-    border-bottom: 5px solid #ccae5c !important;
-
-    &:hover{
-        background-color: #dda917 !important;
-        border-bottom: 5px solid #f4c222 !important;
+@media screen and (max-width: 768px) {
+  .image-bg {
+    display: none;
+  }
+  h3 {
+    &.title-bonus {
+      font-size: 60px;
     }
-}
-
-.col-price{
-    background-color: #ffffff;
-    padding: .75rem;
-}
-
-
-@media screen and (max-width: 375px) {
-    .top-pagamento {
-        padding-top: 2px;
+    &.top-pagamento{
+      padding-top: 22px;
     }
+    &.garantia-title{
+      font-size: 40px;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .top-pagamento {
+    padding-top: 2px;
+  }
+  .image-bg {
+    display: none;
+  }
+  span.headline3 {
+    font-size: 35px;
+  }
+  h3 {
+    &.title-bonus {
+      font-size: 37px;
+    }
+    &.garantia-title {
+      font-size: 28px;
+    }
+  }
 }
 
 .accordion {
-    /* Acordeon styles */
-    .tab {
-        position: relative;
-        margin-bottom: 1px;
-        width: 100%;
-        color: #fff;
-        overflow: hidden;
-    }
+  /* Acordeon styles */
+  .tab {
+    position: relative;
+    margin-bottom: 1px;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+  }
 
-    input {
-        position: absolute;
-        opacity: 0;
-        z-index: -1;
-    }
-    label {
-        position: relative;
-        display: block;
-        padding: 0 0 0 1em;
-        background: #f6d44e;
-        font-family: brandon-grotesque;
-        line-height: 3;
-        cursor: pointer;
-        font-size: 18px;
-        text-transform: uppercase;
-        font-weight: 900;
-    }
-    .blue label {
-        background: #2980b9;
-    }
-    .tab-content {
-        max-height: 0;
-        overflow: hidden;
-        background: #f5f5f5;
-        color: #212121;
-        -webkit-transition: max-height .35s;
-        -o-transition: max-height .35s;
-        transition: max-height .35s;
-    }
-    .blue .tab-content {
-        background: #3498db;
-    }
-    .tab-content p {
-        margin: 1em;
-        color: #000;
-        font-family: Brandon-Grotesque, sans-serif;
-        font-size: 18px;
-        font-weight: 300;
-        line-height: 1.4;
-    }
-    /* :checked */
-    input:checked ~ .tab-content {
-        max-height: 10em;
-    }
-    /* Icon */
-    label::after {
-        position: absolute;
-        right: 0;
-        top: 0;
-        display: block;
-        width: 3em;
-        height: 3em;
-        line-height: 3;
-        text-align: center;
-        -webkit-transition: all .35s;
-        -o-transition: all .35s;
-        transition: all .35s;
-    }
-    input[type=checkbox] + label::after {
-        content: "+";
-    }
-    input[type=radio] + label::after {
-        content: "\25BC";
-    }
-    input[type=checkbox]:checked + label::after {
-        transform: rotate(315deg);
-    }
-    input[type=radio]:checked + label::after {
-        transform: rotateX(180deg);
-    }
+  input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  label {
+    position: relative;
+    display: block;
+    padding: 0 0 0 1em;
+    background: #f6d44e;
+    font-family: brandon-grotesque;
+    line-height: 3;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  .blue label {
+    background: #2980b9;
+  }
+  .tab-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #f5f5f5;
+    color: #212121;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+  }
+  .blue .tab-content {
+    background: #3498db;
+  }
+  .tab-content p {
+    margin: 1em;
+    color: #000;
+    font-family: Brandon-Grotesque, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+  /* :checked */
+  input:checked ~ .tab-content {
+    max-height: 10em;
+  }
+  /* Icon */
+  label::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 3em;
+    height: 3em;
+    line-height: 3;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+  }
+  input[type=checkbox] + label::after {
+    content: "+";
+  }
+  input[type=radio] + label::after {
+    content: "\25BC";
+  }
+  input[type=checkbox]:checked + label::after {
+    transform: rotate(315deg);
+  }
+  input[type=radio]:checked + label::after {
+    transform: rotateX(180deg);
+  }
 }

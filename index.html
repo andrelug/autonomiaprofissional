@@ -47,7 +47,7 @@
     </div>
     <div class="column is-one-third has-text-centered">
         <div class="content">
-            <a class="button is-success is-medium">INSCREVA-SE AGORA</a>
+            <a href="#section16" class="button is-success is-medium">INSCREVA-SE AGORA</a>
         </div>
     </div>
 </div>
@@ -259,7 +259,7 @@
                         IDEAIS E TENDO LIBERDADE PARA ORGANIZAR SEU ESTILO DE VIDA - <b>É sobre isso que é esse curso</b>.</h3>
 
                     <div class="content" style="padding-bottom: 31px;padding-top: 10px">
-                        <a class="button is-success btn-subscription is-large">INSCREVER AGORA</a>
+                        <a href="#section16" class="button is-success btn-subscription is-large">INSCREVER AGORA</a>
                     </div>
 
                     <h2>FOCO ESTÁ NO RESULTADO - ENTENDER O QUE O CLIENTE PRECISA/EMPATIA</h2>
@@ -635,7 +635,7 @@
             <div class="columns is-centered">
                 <div class="column is-half has-text-centered">
                     <div class="content"  style="padding-bottom: 31px">
-                        <a class="button is-success is-large is-fullwidth">ENTRAR NO CURSO</a>
+                        <a href="#section16" class="button is-success is-large is-fullwidth">ENTRAR NO CURSO</a>
                     </div>
                 </div>
             </div>
@@ -735,7 +735,8 @@
         </div>
     </div>
 
-    <div class="columns is-centered">
+    <section id="section16" style="background: url(img/back-paper.jpg)">
+        <div class="columns is-centered">
         <div class="column is-one-third has-text-centered">
             <div class="content">
                 <figure class="image">
@@ -744,41 +745,13 @@
             </div>
         </div>
     </div>
-
-    <section id="section14">
-        <div class="container">
-            <div class="columns is-centered">
-                <div class="column has-text-centered is-two-thirds">
-                    <h2>SE INSCREVER AGORA</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="section15">
-        <div class="container">
-            <div class="columns is-centered">
-                <div class="column has-text-centered is-two-thirds">
-                    <h2>WIDGET DE TEMPO FALTANDO</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="section16" style="background: url(img/back-paper.jpg)">
         <div class="container">
             <div class="columns is-centered ">
                 <div class="column has-text-centered is-one-third">
                     <div class="col-price">
-                        <h3 class="top-pagamento">PAGAMENTO PARCELADO</h3>
+                        <h3 class="top-pagamento" style="height:59px">PAGAMENTO PARCELADO</h3>
                         <h4 class="price">EM 10X DE</h4>
-                        <h4 class="value">R$120?</h4>
-                        <p style="border-bottom: 1px solid #707070;padding: 10px">Benefício</p>
-                        <p class="benefits">Benefício</p>
-                        <p class="benefits">Benefício</p>
-                        <p class="benefits">Benefício</p>
-                        <p class="benefits">Benefício</p>
-                        <p class="benefits">Benefício</p>
+                        <h4 class="value">R$110,66</h4>
                         <div class="content" style="padding-bottom: 31px;padding-top: 10px">
                             <a href="https://pay.hotmart.com/O8107147Y?spit=10" class="button is-success btn-subscription is-large is-fullwidth">INSCREVER AGORA</a>
                         </div>
@@ -786,15 +759,9 @@
                 </div>
                 <div class="column has-text-centered is-one-third">
                     <div class="col-price">
-                        <h3 class="top-pagamento">PAGAMENTO COMPLETO</h3>
-                        <h4 class="price">X% DE DESCONTO</h4>
+                        <h3 class="top-pagamento" style="height:59px">PAGAMENTO COMPLETO</h3>
+                        <h4 class="price">1 PAGAMENTO DE</h4>
                         <h4 class="value">R$997</h4>
-                        <p style="border-bottom: 1px solid #707070;padding: 10px">Benefício</p>
-                        <p class="benefits">Benefício</p>
-                        <p class="benefits">Benefício</p>
-                        <p class="benefits">Benefício</p>
-                        <p class="benefits">Benefício</p>
-                        <p class="benefits">Benefício</p>
                         <div class="content" style="padding-bottom: 31px;padding-top: 10px">
                             <a href="https://pay.hotmart.com/O8107147Y" class="button is-success btn-subscription is-large is-fullwidth">INSCREVER AGORA</a>
                         </div>
@@ -822,5 +789,47 @@
         </div>
     </div>
 </footer>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+<script>
+    $( document ).ready(function() {
+        // Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+    });
+</script>
 </body>
 </html>

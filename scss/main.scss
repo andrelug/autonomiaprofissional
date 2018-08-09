@@ -331,7 +331,6 @@ img.features03 {
 
 .bonus-title {
   background-color: #f5d44d;
-  height: 57px;
   padding-top: 8px;
   color: #ffffff !important;
 }
@@ -341,12 +340,11 @@ img.features03 {
 }
 
 h3.top-pagamento {
-  height: 90px;
   background-color: #89d3e2;
   font-size: 26px;
   font-weight: bold;
   color: #ffffff;
-  padding-top: 25px;
+//  padding-top: 25px;
   border-bottom: 1px solid dimgrey;
 }
 
@@ -400,7 +398,7 @@ h3 {
     font-weight: bold;
   }
   &.top-pagamento {
-    padding-top: 9px;
+  //  padding-top: 9px;
   }
 }
 
@@ -413,7 +411,7 @@ h3 {
       font-size: 60px;
     }
     &.top-pagamento{
-      padding-top: 22px;
+    //  padding-top: 22px;
     }
     &.garantia-title{
       font-size: 40px;

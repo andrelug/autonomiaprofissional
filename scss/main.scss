@@ -278,6 +278,8 @@ span.headline3 {
 .features01 {
   border: 1px solid #707070;
   padding: 25px 10px;
+  min-height: 400px;
+  background-color: #273C75;
 }
 
 .features01 h3 {
@@ -491,7 +493,7 @@ h3 {
   }
   /* :checked */
   input:checked ~ .tab-content {
-    max-height: 10em;
+    max-height: 15em;
   }
   /* Icon */
   label::after {
